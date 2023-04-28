@@ -1,7 +1,10 @@
 
-class Dictionary:
-    rus = " Питон"
-    eng = "Python"
+class Point():
+    def __init__(self, x: int, y: int):
+        self.x = x
+        self.y = y
 
 
-print(getattr(Dictionary, "rus_word", False))
+brabra = Point(3, 4)
+
+print(brabra.x)
